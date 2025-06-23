@@ -39,7 +39,7 @@ def music_player(c):
 #fetch and speaks the latest news headlines
 def show_news():
     try:
-        response = requests.get("") 
+        response = requests.get("NEWS API KEY") 
         news_data = response.json()
 
         if news_data["status"] == "ok":
