@@ -14,7 +14,7 @@ Communicate with OpenAI’s GPT models for intelligent responses
 
 #Libraries Used
 
-http.client	Built-in HTTP module --> used for low-level HTTP requests
+http.client	--> Built-in HTTP module used for low-level HTTP requests
 click.command -->	Used to create elegant command-line interfaces
 speech_recognition	--> Converts spoken audio to text
 pyttsx3 -->	Offline text-to-speech conversion
